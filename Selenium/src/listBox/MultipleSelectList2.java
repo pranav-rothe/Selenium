@@ -17,7 +17,7 @@ public class MultipleSelectList2 {
 		driver.manage().window().maximize();	
 		
 		WebElement w=driver.findElement(By.xpath("//select[@id='abc123']"));
-		//Here if we do not take /option in xpath we use Select class otherwise we take /option
+		//Here if we do not take '/option' in xpath we use Select class otherwise we take '/option'
 		
 		Select sel=new Select(w);
 		System.out.println(sel.isMultiple());

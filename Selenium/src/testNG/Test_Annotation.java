@@ -3,7 +3,7 @@ package testNG;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class TestAnnotation_TestNG {
+public class Test_Annotation {
 	
 	@Test
 	public void TC01_OpenBrowser() {

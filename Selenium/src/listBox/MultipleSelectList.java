@@ -18,8 +18,8 @@ public class MultipleSelectList {
 		List<WebElement> l=driver.findElements(By.xpath("//select[@id='abc123']/option"));
 		//Here if we do not take /option in xpath we use Select class otherwise we take /option
 		
-		String aus="AUS";
-		String nz="NZ";
+		String aus="AUSTRALIA";
+		String nz="NEWZEALAND";
 		for(WebElement w:l)
 		{
 			String s=w.getText();

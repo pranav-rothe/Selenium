@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="include_excludeByXML.Include_ExcludeByXML">
+				<methods>
+					<exclude name="TC03"></exclude> <!-- In Exclude which we want to exclude the testCases name and then other testCases are executed -->
+					<exclude name="TC04"></exclude> <!-- In here we exclude two testCases TC03 and TC04 others are executed -->
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

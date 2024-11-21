@@ -1,33 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-14T20:00:11 IST" name="Default suite" finished-at="2024-11-14T20:00:11 IST" duration-ms="132">
+  <suite started-at="2024-11-21T10:59:40 IST" name="Suite" finished-at="2024-11-21T11:00:29 IST" duration-ms="48330">
     <groups>
     </groups>
-    <test started-at="2024-11-14T20:00:11 IST" name="Default test" finished-at="2024-11-14T20:00:11 IST" duration-ms="132">
-      <class name="testNG.PriorityKeywordMethod">
-        <test-method signature="openApp()[pri:1, instance:testNG.PriorityKeywordMethod@4d9e68d0]" started-at="2024-11-14T20:00:11 IST" name="openApp" finished-at="2024-11-14T20:00:11 IST" duration-ms="23" status="PASS">
+    <test started-at="2024-11-21T10:59:40 IST" name="Test" finished-at="2024-11-21T11:00:29 IST" duration-ms="48330">
+      <class name="pom_DDF_TestNG_TestBase_Utility_Properties.SauceLab_Test">
+        <test-method is-config="true" signature="openBrowwser()[pri:0, instance:pom_DDF_TestNG_TestBase_Utility_Properties.SauceLab_Test@38c6f217]" started-at="2024-11-21T10:59:40 IST" name="openBrowwser" finished-at="2024-11-21T10:59:46 IST" duration-ms="6034" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method signature="userName()[pri:2, instance:testNG.PriorityKeywordMethod@4d9e68d0]" started-at="2024-11-14T20:00:11 IST" name="userName" finished-at="2024-11-14T20:00:11 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- openBrowwser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:pom_DDF_TestNG_TestBase_Utility_Properties.SauceLab_Test@38c6f217]" started-at="2024-11-21T10:59:46 IST" name="login" finished-at="2024-11-21T10:59:47 IST" duration-ms="884" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userName -->
-        <test-method signature="password()[pri:3, instance:testNG.PriorityKeywordMethod@4d9e68d0]" started-at="2024-11-14T20:00:11 IST" name="password" finished-at="2024-11-14T20:00:11 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="verifyLogo()[pri:0, instance:pom_DDF_TestNG_TestBase_Utility_Properties.SauceLab_Test@38c6f217]" started-at="2024-11-21T10:59:47 IST" name="verifyLogo" finished-at="2024-11-21T10:59:49 IST" duration-ms="1917" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- password -->
-        <test-method signature="closeApp()[pri:5, instance:testNG.PriorityKeywordMethod@4d9e68d0]" started-at="2024-11-14T20:00:11 IST" name="closeApp" finished-at="2024-11-14T20:00:11 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- verifyLogo -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:pom_DDF_TestNG_TestBase_Utility_Properties.SauceLab_Test@38c6f217]" started-at="2024-11-21T10:59:49 IST" name="logout" finished-at="2024-11-21T11:00:25 IST" duration-ms="35744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogo status=SUCCESS method=SauceLab_Test.verifyLogo()[pri:0, instance:pom_DDF_TestNG_TestBase_Utility_Properties.SauceLab_Test@38c6f217] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeApp -->
-        <test-method signature="loginBtn()[pri:6, instance:testNG.PriorityKeywordMethod@4d9e68d0]" started-at="2024-11-14T20:00:11 IST" name="loginBtn" finished-at="2024-11-14T20:00:11 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:pom_DDF_TestNG_TestBase_Utility_Properties.SauceLab_Test@38c6f217]" started-at="2024-11-21T11:00:25 IST" name="closeBrowser" finished-at="2024-11-21T11:00:29 IST" duration-ms="3659" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginBtn -->
-      </class> <!-- testNG.PriorityKeywordMethod -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- pom_DDF_TestNG_TestBase_Utility_Properties.SauceLab_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

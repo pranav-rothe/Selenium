@@ -17,7 +17,7 @@ public class BeforeAfter_Method_Annotations {
 		System.out.println("login"); //1st scenario-- 1st execute this method 
 	}								 //2nd scenario-- 1st execute this method 
 	
-	@Test()
+	@Test(invocationCount = 2)
 	public void TC01() {
 		System.out.println("userone"); //1st scenario-- then TC01 testCase methods
 	}								   //2nd scenario-- skip because we use before and after method

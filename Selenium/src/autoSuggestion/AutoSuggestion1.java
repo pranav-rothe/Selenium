@@ -18,7 +18,8 @@ public class AutoSuggestion1 {
 		driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("Oneplus");
 		Thread.sleep(2000);
 		
-		List<WebElement> l=driver.findElements(By.xpath("//div[@class='left-pane-results-container']//div[@class='s-suggestion-container']"));
+		List<WebElement> l=
+		driver.findElements(By.xpath("//div[@class='left-pane-results-container']//div[@class='s-suggestion-container']"));
 		
 		String name="oneplus nord ce 4 lite 5g";
 		for(WebElement w:l) {

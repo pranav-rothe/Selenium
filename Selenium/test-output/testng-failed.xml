@@ -3,12 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.Keywords_AnnotationTwo">
+      <class name="pom_DDF_TestNG_TestBase_Utility_Properties.SauceLab_Test">
         <methods>
+          <include name="openBrowwser"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="verifyLogo"/>
           <include name="login"/>
-          <include name="TC01"/>
         </methods>
-      </class> <!-- testNG.Keywords_AnnotationTwo -->
+      </class> <!-- pom_DDF_TestNG_TestBase_Utility_Properties.SauceLab_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

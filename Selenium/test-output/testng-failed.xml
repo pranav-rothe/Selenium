@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pom_DDF_TestNG_TestBase_Utility_Properties.SauceLab_Test">
+      <class name="assertion.HardAssertion">
         <methods>
-          <include name="openBrowwser"/>
-          <include name="logout"/>
-          <include name="closeBrowser"/>
-          <include name="verifyLogo"/>
-          <include name="login"/>
+          <include name="TC01"/>
         </methods>
-      </class> <!-- pom_DDF_TestNG_TestBase_Utility_Properties.SauceLab_Test -->
+      </class> <!-- assertion.HardAssertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

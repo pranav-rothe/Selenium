@@ -27,7 +27,7 @@ public class ExtractData
 			for(int j=0;j<=columnsize;j++)
 			{
 				Cell c=sh.getRow(i).getCell(j);
-				System.out.print(c+" ");
+				//System.out.print(c+" ");
 				CellType type=c.getCellType();
 
 				if(type==CellType.BOOLEAN)

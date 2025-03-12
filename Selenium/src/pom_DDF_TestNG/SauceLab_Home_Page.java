@@ -1,5 +1,6 @@
 package pom_DDF_TestNG;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,6 +13,7 @@ public class SauceLab_Home_Page {
 	
 	public SauceLab_Home_Page(WebDriver driver) {
 		PageFactory.initElements(driver, this);
+		driver.findElement(By.xpath(null))
 	}
 	
 	public void click_sauceLab_HomePage_MenuButton() { //HomePage Menu Button
